@@ -13,6 +13,7 @@
 
 - React
 - Typescript
+- Styled components
 
 ## Getting started
 
