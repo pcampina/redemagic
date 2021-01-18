@@ -45,6 +45,11 @@ export const Container = styled.section`
         text-align: center;
       }
 
+      @media screen and (max-width: 460px) {
+        width: 100%;
+        padding: 0 1em;
+      }
+
       h3 {
         font-size: 2em;
         color: #242f51;

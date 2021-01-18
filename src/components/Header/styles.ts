@@ -10,6 +10,10 @@ export const Container = styled.div`
     padding: 1em 0;
   }
 
+  @media screen and (max-width: 460px) {
+    padding: 1em 0 2em;
+  }
+
   .container {
     display: flex;
     justify-content: space-between;

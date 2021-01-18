@@ -33,6 +33,7 @@ export const Container = styled.section`
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-left: 0;
       }
 
       .editors-choice {
@@ -60,6 +61,11 @@ export const Container = styled.section`
         span:last-child {
           color: #242f51;
           padding: 0 2em 0 0.5em;
+
+          @media screen and (max-width: 400px) {
+            font-size: 0.9em;
+            padding: 0.1em 0.5em 0 0.5em;
+          }
         }
       }
 
@@ -72,6 +78,10 @@ export const Container = styled.section`
 
         @media screen and (max-width: 960px) {
           text-align: center;
+        }
+
+        @media screen and (max-width: 460px) {
+          font-size: 2.4em;
         }
       }
 
@@ -105,7 +115,6 @@ export const Container = styled.section`
               @media screen and (max-width: 960px) {
                 margin: 0 auto;
                 float: none;
-                padding-left: 2.6em;
               }
             }
           }
